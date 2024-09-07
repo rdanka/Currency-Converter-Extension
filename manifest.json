@@ -1,0 +1,11 @@
+{
+    "name": "Currency Converter",
+    "version": "1.0.0",
+    "description": "Currency converter extension",
+    "manifest_version": 1,
+    "author": "Danka Robert",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Currency Converter"
+    }
+}
