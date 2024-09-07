@@ -9,6 +9,10 @@
     font-style: bold;
 }  
 
+div {
+    width: 250px;
+}
+
 ul {
     display: flex;
     flex-direction: column;

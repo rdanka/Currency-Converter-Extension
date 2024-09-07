@@ -25,7 +25,7 @@ async function fetchData(value, currency) {
 }
 
 inputs.forEach(input => {
-    input.element.addEventListener('blur', (event) => fetchData(event.target.value, input.currency));
+    input.element.addEventListener('input', (event) => fetchData(event.target.value, input.currency));
 });
 
 fetchData(1, "EUR");
